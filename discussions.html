@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Discussion</title>
+  <link rel="stylesheet" href="comminity.css">
+</head>
+<body>
+  <header>
+    <h1>Discussion</h1>
+  </header>
+
+  <div class="sidebar">
+    <h4>Search Options</h4>
+    <label for="price">Price:</label>
+    <input type="text" id="price" name="price">
+
+    <label for="location">Location:</label>
+    <input type="text" id="location" name="location">
+
+    <label for="other">Other:</label>
+    <select id="other" name="other">
+      <option value="option1">Option 1</option>
+      <option value="option2">Option 2</option>
+      <option value="option3">Option 3</option>
+    </select>
+
+    <div class="button-container">
+      <button type="button" onclick="applyFilters()">Apply</button>
+      <button type="button" onclick="resetFilters()">Reset</button>
+    </div>
+  </div>
+
+  <div class="listing-container">
+    <div class="listing">
+      <h3 class="title">Listing Title 1</h3>
+      <p class="description">Listing Description 1</p>
+    </div>
+    
+    <div class="listing">
+      <h3 class="title">Listing Title 2</h3>
+      <p class="description">Listing Description 2</p>
+    </div>
+    
